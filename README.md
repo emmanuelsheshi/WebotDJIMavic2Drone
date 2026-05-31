@@ -106,7 +106,3 @@ Opens a GUI window showing all axes as live bars and all buttons highlighted whe
 | Throttle pushed up | Drone re-arms and climbs back to 1 m |
 
 ---
-
-## 📊 Data Collection
-
-`mavicDataCollection.py` logs flight data and plots roll, pitch, yaw and altitude live in a separate thread. Run it as the controller instead of `Mavic2controller.py` when you want to analyse flight performance.
